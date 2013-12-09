@@ -1,4 +1,4 @@
-(defproject query-bank "0.7"
+(defproject knakk/query-bank "0.7"
   :description "SPARQL query phrasebook"
   :url "http://github.com/knakk/query-bank"
   :license {:name "Eclipse Public License"
