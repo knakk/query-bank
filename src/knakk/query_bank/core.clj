@@ -36,4 +36,4 @@
        (if-let [query (qb query-name)]
          (render query query-params)
          (throw (IllegalArgumentException.
-                  (str "Phrasebook " resource-name " has no query " query-name))))))))
+                  (str "query-bank " resource-name " has no query " query-name))))))))
