@@ -1,0 +1,19 @@
+# tag: q0
+SELECT *
+WHERE { ?s ?p ?o}
+
+# tag: q1
+SELECT *
+WHERE
+ {
+  ?s ?p ?o 
+  FILTER(?s = <{{subj}}>
+ }
+
+# tag: q2
+SELECT *
+WHERE
+ {
+  ?s ?p <{{obj1}}> ;
+     ?p {{obj2}} .
+ }
