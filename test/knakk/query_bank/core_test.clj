@@ -6,7 +6,7 @@
 
 (deftest queries
   (testing "no arguments"
-    (is (= (query "q0") "SELECT * WHERE { ?s ?p ?o}")))
+    (is (= (query "q0") "SELECT * WHERE { ?s ?p ?o }")))
   
   (testing "one argument"
     (is (= (query "q1" {:subj "xyz"})

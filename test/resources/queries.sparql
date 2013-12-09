@@ -1,13 +1,13 @@
 # tag: q0
 SELECT *
-WHERE { ?s ?p ?o}
+WHERE { ?s ?p ?o }
 
 # tag: q1
 SELECT *
 WHERE
  {
   ?s ?p ?o 
-  FILTER(?s = <{{subj}}>
+  FILTER(?s = <{{subj}}>)
  }
 
 # tag: q2
