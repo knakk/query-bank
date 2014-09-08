@@ -29,7 +29,7 @@ Any variables will be interpolated into the query:
 
 (def query (query-bank "resources/queries.sparql"))
 
-(query q1 {:subj "http://dott.com/mysubject"})
+(query "q1" {:subj "http://dott.com/mysubject"})
 ;; "SELECT * WHERE { ?s ?p ?o FILTER(?s = <http://dott.com/mysubject>) }"
 ```
 
